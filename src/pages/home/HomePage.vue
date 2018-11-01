@@ -6,6 +6,7 @@
 
     <history-list :data="historyList"></history-list>
 
+    <menu-bar index="1"></menu-bar>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
   import TitleBar from '@/pages/common/TitleBar'
   import Carousel from '@/pages/common/Carousel'
   import HistoryList from '@/pages/home/components/HistoryList'
+  import MenuBar from '@/pages/common/MenuBar'
   import axios from 'axios'
 
 
@@ -29,7 +31,8 @@
     components: {
       TitleBar,
       Carousel,
-      HistoryList
+      HistoryList,
+      MenuBar
     },
     mounted(){
       axios.get('/api/index').then(res=>{
