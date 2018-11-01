@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	height: 55px;
+	line-height: 55px;
+	color: rgba(16, 16, 16, 1);
+	background-color: gainsboro;
+	font-size: 18px;
+	text-align: center;
+	font-family: Microsoft Yahei;
+}
+
+.ball-item {
+	width: 31px;
+	height: 31px;
+	line-height: 31px;
+	font-size: 14px;
+	text-align: center;
+	font-family: Roboto;
+	border: 1px solid rgba(187, 187, 187, 1);
+	border-radius: 100%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.ball-red {
+	color: red;
+}
+
+.ball-blue {
+	color: blue;
+}
+
+.menu {
+	background-color: gainsboro;
+	padding-top: 5px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.menu-item {
+	text-align: center;
+}
+
+.menu-item-activied {
+	color: red;
+}
